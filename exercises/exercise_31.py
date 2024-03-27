@@ -1,5 +1,5 @@
 days = int(input("Enter the number of days"))
-lowest_temp = 100000
+lowest_temp = 10000000
 for i in range (days):
     temp = int(input("What is the temp?"))
     lowest_temp = temp if (temp < lowest_temp) else lowest_temp
